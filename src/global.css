@@ -1,0 +1,9 @@
+@import "@fonts/satoshi.css";
+
+body {
+  margin: 0;
+  font-family: "Satoshi", "Satoshi-Variable", "Satoshi-VariableItalic",
+    "Satoshi-Light", "Satoshi-LightItalic", "Satoshi-Regular", "Satoshi-Italic",
+    "Satoshi-Medium", "Satoshi-MediumItalic", "Satoshi-Bold",
+    "Satoshi-BoldItalic", "Satoshi-Black", "Satoshi-BlackItalic", sans-serif;
+}

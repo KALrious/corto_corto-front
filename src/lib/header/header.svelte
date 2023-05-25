@@ -1,5 +1,9 @@
+<script>
+  import HeaderLogo from "$lib/svg/header-logo.svelte";
+</script>
+
 <nav class="navigation">
-  <h1 class="logo">CORTO__CORTO</h1>
+  <HeaderLogo />
   <ul class="navigation-list">
     <li class="navigation-item">PROJECTS</li>
     <li class="navigation-item">INFO</li>
@@ -17,10 +21,10 @@
   }
 
   .logo {
-    font-size: 13vw;
+    font-size: 12.3vw;
     margin: 0;
     padding: 0;
-    font-weight: 400;
+    font-weight: 600;
   }
   .navigation-list {
     display: flex;
@@ -34,6 +38,6 @@
   .navigation-item {
     padding: 0;
     margin: 0;
-    font-weight: 400;
+    font-weight: 500;
   }
 </style>

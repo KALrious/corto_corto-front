@@ -1,5 +1,5 @@
 <script lang="ts">
-  import ProjectPresentation from "../components/project-presentation/project-presentation.svelte";
+  import ProjectPresentation from "../lib/project-presentation/project-presentation.svelte";
   import type { ProjectLanding } from "./types";
   export let data: ProjectLanding;
 </script>
@@ -29,5 +29,8 @@
     align-items: center;
     flex-direction: column;
     gap: 16px;
+    @media screen and (min-width: 768px) {
+      margin: 0 56px;
+    }
   }
 </style>
